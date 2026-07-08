@@ -28,8 +28,9 @@
   body { color: var(--ink); margin: 0;
          font: 16px/1.6 Inter, system-ui, -apple-system, "Segoe UI", Arial, sans-serif; }
   .masthead { background: var(--panel); color: var(--panel-ink); }
-  .masthead .inner { max-width: 42rem; margin: 0 auto; padding: 2.4rem 1.25rem 2.2rem; }
-  .brandmark { display: inline-flex; align-items: center; margin: 0 0 1.2rem;
+  .masthead .inner { max-width: 42rem; margin: 0 auto; padding: 2.4rem 1.25rem 2.2rem;
+                     display: flex; justify-content: space-between; align-items: flex-start; gap: 1.5rem; }
+  .brandmark { display: inline-flex; align-items: center; flex: none; margin: 0.25rem 0 0;
                font: 400 1.7rem/1 "Libre Caslon Display", "Big Caslon", Baskerville, Georgia, serif;
                letter-spacing: 0.05em; color: var(--panel-ink); }
   .brandmark .slash { width: 2px; height: 1.5em; margin: 0 0.32em;
@@ -62,10 +63,12 @@
 </style>
 </head><body>
 <header class="masthead"><div class="inner">
-<div class="brandmark" aria-label="SOV/AI"><span>SOV</span><span class="slash" aria-hidden="true"></span><span>AI</span></div>
+<div class="head-text">
 <p class="eyebrow">Strategy Team &middot; Daily Monitor</p>
 <h1>Sovereign AI Digest</h1>
 <p class="dateline">Wednesday 8 July 2026</p>
+</div>
+<div class="brandmark" aria-label="SOV/AI"><span>SOV</span><span class="slash" aria-hidden="true"></span><span>AI</span></div>
 </div></header>
 <div class="wrap">
 <p class="overview">A strong week for UK AI, led by compute and physical AI: Nscale&#x27;s £670m credit facility for data-centre buildout, HIVE&#x27;s £11.2m seed for its industrial &#x27;silicon brain&#x27;, Worldmodeldata&#x27;s £7m stealth exit and Luffy AI&#x27;s neuroplastic-AI Series A. No direct news on watchlist companies this week, though a cluster of drug-discovery coverage references Isomorphic Labs (see run report). In policy, Andy Burnham&#x27;s challenge to the UK AI strategy and the FCA&#x27;s Mills Review set a newly contested regulatory tone against a record $17bn H1 for UK startup funding. Separately, the LSE&#x27;s seven H1 listings (£577m) hint at an IPO-market revival.</p>
